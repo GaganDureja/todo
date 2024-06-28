@@ -9,7 +9,9 @@ Follow the below steps to run the project on your local computer:
 2. Check if Python is installed on your system by typing `python --version` or `python3 --version`.
 3. If Python is not installed, download it from [here](https://www.python.org/downloads/).
 4. Clone the project repository by typing the following command in the terminal:
-`git clone git@github.com:GaganDureja/todo.git`
+```bash
+git clone git@github.com:GaganDureja/todo.git
+```
 5. Navigate to the project directory. `cd todo`
 6. Create a virtual environment to manage project dependencies Install and Run:
 ```bash
@@ -24,7 +26,7 @@ python3 -m venv env
  `python3 manage.py runserver`
 11. You can test all the api links with your browser or some apps like postman.
   * Create and Retrieve Task [Open Link](http://127.0.0.1:8000/api/tasks)
-  * Retrieve/Update/Delete Single Task: GET [Open Link](http://127.0.0.1:8000/api/tasks/1)
+  * Retrieve/Update/Delete Single Task [Open Link](http://127.0.0.1:8000/api/tasks/1)
   * Due Today Tasks [Open Link](http://127.0.0.1:8000/api/tasks/due-today).
 
 ## Admin Panel
