@@ -18,7 +18,8 @@ from django.urls import path
 from tasks import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/tasks/', views.TasksListCreateAPIView.as_view()),
-    path('api/tasks/<int:pk>/', views.TasksRetrieveUpdateDestroyAPIView.as_view()),
+  path('admin/', admin.site.urls),
+  path('api/tasks/', views.TasksListCreateAPIView.as_view()),
+  path('api/tasks/<int:pk>/', views.TasksRetrieveUpdateDestroyAPIView.as_view()),
+  path('api/tasks/due-today/', views.DueTodayTaskListAPIView.as_view()),
 ]
