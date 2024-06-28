@@ -23,9 +23,9 @@ python3 -m venv env
 10. After all installations are done, start the server by running:
  `python3 manage.py runserver`
 11. You can test all the api links with your browser or some apps like postman.
-  -Create and Retrieve Task [Open Link](http://127.0.0.1:8000/api/tasks)
-  -Retrieve/Update/Delete Single Task: GET [Open Link](http://127.0.0.1:8000/api/tasks/1)
-  -Due Today Tasks [Open Link](http://127.0.0.1:8000/api/tasks/due-today).
+  * Create and Retrieve Task [Open Link](http://127.0.0.1:8000/api/tasks)
+  * Retrieve/Update/Delete Single Task: GET [Open Link](http://127.0.0.1:8000/api/tasks/1)
+  * Due Today Tasks [Open Link](http://127.0.0.1:8000/api/tasks/due-today).
 
 ## Admin Panel
 1. To log in as an admin, you need a superuser account. Stop the server by `Ctrl+C`.
